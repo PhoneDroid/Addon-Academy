@@ -41,6 +41,9 @@ jobs:
             -   name : Upload artifact
                 uses : actions/upload-pages-artifact@v4
 
+                with:
+                    path : ./Page
+
     Deploy:
 
         runs-on : ubuntu-latest
